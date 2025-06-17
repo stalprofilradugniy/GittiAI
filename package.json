@@ -1,0 +1,24 @@
+{
+  "name": "gitty-ai-guitar-teacher-web",
+  "version": "1.0.0",
+  "description": "Гитти - AI Учитель Гитары для Детей (Веб-приложение)",
+  "private": true,
+  "scripts": {
+    "dev": "node esbuild.config.js --watch",
+    "build": "node esbuild.config.js",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@google/genai": "^1.5.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "esbuild": "^0.21.4",
+    "fs-extra": "^11.2.0",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.4.5"
+  }
+}
